@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.bassfox" name="Bass Fox" version="1.3.0" provider-name="Bass Fox">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>BASSFOX based on LivetreamsPro by Shani "All rights to this author"</summary>
+    <description lang="en">[COLOR cyan][B]BassFox[/B][/COLOR] - Es un addon de [COLOR red][B]KODI[/B][/COLOR] con el cual podrás disfrutar de canales de tv y películas gratis, si te estan cobrando por esta addons pide la devolución de tu dinero.
+Gracias por su preferencia (Agradecemos a [COLOR blue][B]Wilmer[/B][/COLOR] por la colaboración) BASSFOX based on LivetreamsPro by Shani</description>
+     <disclaimer lang="en">Using this add-on is free and at your own risk if the law prohibits the use </disclaimer>
+		<disclaimer lang="es">El uso de este Add-on es gratuito y bajo tu responsabilidad si las leyes de tu país restringuen su uso</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.CRI" name="Corporación Refaccionaria Industrial" version="1.0.3" provider-name="CRI">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>CRI based on LivetreamsPro by Shani "All rights to this author"</summary>
+    <description lang="en">[COLOR green][B]CRI[/B][/COLOR] - Es un addon de [COLOR blue][B]KODI[/B][/COLOR] Diseñado para el entrenamiento y actualizacion de los empleados de Corporacion Refaccionaria Industrial, Publicando de Forma Privada, Cursos, Manuales y todo contenido multimedia para el aprendizaje.
+Gracias por su preferencia (Agradecemos a [COLOR blue][B]José Manuel Gutierrez[/B][/COLOR] el apoyo a este proyecto) CRI based on LivetreamsPro by Shani</description>
+     <disclaimer lang="en">Using this add-on is free and at your own risk if the law prohibits the use </disclaimer>
+		<disclaimer lang="es">El uso de este Add-on es gratuito y bajo tu responsabilidad si las leyes de tu país restringuen su uso</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.erotik" name="Erotik (XXX)" version="1.0.16" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="1.1.0"/>
+    <import addon="script.module.beautifulsoup"/>
+    <import addon="script.module.urlresolver" version="2.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.genesis" name="Genesis" version="5.1.4" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" version="1.0.0" />
+		<import addon="script.module.metahandler" optional="true" />
+		<import addon="plugin.video.youtube" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The origins of streaming</summary>
+		<description lang="en">Visit TVADDONS.ag for support</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
+		<source>https://offshoregit.com/lambda81/</source>
+		<website>https://offshoregit.com/lambda81/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.genesislazarus" name="Genesis Lazarus" version="4.8.5" provider-name="KodiMaster">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.requests" version="1.0.0" />
+		<import addon="script.module.metahandler" optional="true" />
+		<import addon="plugin.video.youtube" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Genesis Lazarus - Genesis Has Risen</summary>
+		<description lang="en">Genesis Lazarus provides Genesis 4.8.5 with download availability again. All credit for the Genesis add-on goes to lambda. </description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum></forum>
+		<source>https://offshoregit.com/lambda81/</source>
+		<website>https://offshoregit.com/lambda81/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="0.6.5" provider-name="Diblo">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <website><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></website>
+        <forum></forum>
+        <source><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></source>
+        <language>English</language>
+        <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
+        <summary><![CDATA[KODI Popcorn Time: Immediately stream movies in KODI.]]></summary>
+        <description><![CDATA[With KODI Popcorn Time you can search for movies that you can see immediately in KODI.]]></description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.LinkTV" name="Link TV" version="1.0.3" provider-name="Link TV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>LinkTV based on LivetreamsPro by Shani "All rights to this author"</summary>
+    <description lang="en">[COLOR cyan][B]LinkTV[/B][/COLOR] - Es un addon de [COLOR red][B]KODI[/B][/COLOR] Diseñado para Reproducir Canales de Television por IP, Peliculas, Series y Contenido Multimedia Existente en la Red, Gracias por su preferencia (Agradecimiento Especial a: [COLOR blue][B]Alejandra Pelayo[/B][/COLOR] por el Apoyo y Pasciencia a Este Proyecto que ha Requerido mucho Tiempo) LinkTV based on LivetreamsPro by Shani</description>
+     <disclaimer lang="en">Using this add-on is free and at your own risk if the law prohibits the use </disclaimer>
+		<disclaimer lang="es">El uso de este Add-on es gratuito y bajo tu responsabilidad si las leyes de tu país restringuen su uso</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.MikeysKaraoke" name="Mikey's Karaoke" version="4.8.0" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="0.0.1"/>
+    <import addon="plugin.video.youtube" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Play Karaoke Videos</summary>
+    <description lang="en">Search Karaoke Songs.....Official Support....XUNITYTALK.COM</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.popcornflixde"
+  version="1.1.1"
+  name="Popcornflix"
+  provider-name="Jin">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+   <import addon="script.module.requests" version="2.3.0"/>
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>popcornflix.com</summary>
+    <description>Popcornflix bietet tolle Filme Kostenlos</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.projectfreetv"
+       name="Project Free TV"
+       version="2.4.0"
+       provider-name="Eldorado">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.metahandler" />
+    <import addon="script.module.addon.common"/>
+    <import addon="script.common.plugin.cache" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en">Visit www.tvaddons.ag for support.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.LinkTV" name="Repositorio Oficial LinkTV" version="1.0.3" provider-name="Links Video Games">
+	<extension point="xbmc.addon.repository" name="Repositorio Oficial LinkTV">
+		<info compressed="false">https://raw.github.com/Link5465/LinkVideoGames/master/addons.xml</info>
+		<checksum>https://raw.github.com/Link5465/LinkVideoGames/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.github.com/Link5465/LinkVideoGames/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repositorio Oficial LinkTV</summary>
+                <description lang="en">Install Addon Official Link TV and other add-ons that are complementary help in support links</description>
+   		<description lang="es">Instala el Addon Oficial Link TV y los otros add-ons que son complementos de ayuda en la reproducción de las listas</description>
+		<disclaimer>Derechos Reservados Jose Carlos Mendoza / Link the Hylian 12 de Noviembre 2015.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

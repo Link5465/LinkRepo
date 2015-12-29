@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.CRI" name="Corporación Refaccionaria Industrial" version="1.0.3" provider-name="CRI">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>CRI based on LivetreamsPro by Shani "All rights to this author"</summary>
+    <description lang="en">[COLOR green][B]CRI[/B][/COLOR] - Es un addon de [COLOR blue][B]KODI[/B][/COLOR] Diseñado para el entrenamiento y actualizacion de los empleados de Corporacion Refaccionaria Industrial, Publicando de Forma Privada, Cursos, Manuales y todo contenido multimedia para el aprendizaje. 
+Gracias por su preferencia (Agradecemos a [COLOR blue][B]José Manuel Gutierrez[/B][/COLOR] el apoyo a este proyecto) CRI based on LivetreamsPro by Shani</description>
+     <disclaimer lang="en">Using this add-on is free and at your own risk if the law prohibits the use </disclaimer>
+		<disclaimer lang="es">El uso de este Add-on es gratuito y bajo tu responsabilidad si las leyes de tu país restringuen su uso</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>

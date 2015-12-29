@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.popcornflixde"
+  version="1.1.1"
+  name="Popcornflix"
+  provider-name="Jin">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+   <import addon="script.module.requests" version="2.3.0"/>
+  </requires>
+  <extension 
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>popcornflix.com</summary>
+    <description>Popcornflix bietet tolle Filme Kostenlos</description>
+    <platform>all</platform>
+  </extension>
+</addon>

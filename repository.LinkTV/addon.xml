@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.LinkTV" name="Repositorio Oficial LinkTV" version="1.0.3" provider-name="Links Video Games">
+	<extension point="xbmc.addon.repository" name="Repositorio Oficial LinkTV">
+		<info compressed="false">https://raw.github.com/Link5465/LinkVideoGames/master/addons.xml</info>
+		<checksum>https://raw.github.com/Link5465/LinkVideoGames/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.github.com/Link5465/LinkVideoGames/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repositorio Oficial LinkTV</summary>
+                <description lang="en">Install Addon Official Link TV and other add-ons that are complementary help in support links</description>
+   		<description lang="es">Instala el Addon Oficial Link TV y los otros add-ons que son complementos de ayuda en la reproducción de las listas</description>
+		<disclaimer>Derechos Reservados Jose Carlos Mendoza / Link the Hylian 12 de Noviembre 2015.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
