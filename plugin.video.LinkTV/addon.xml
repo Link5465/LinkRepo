@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.LinkTV" name="[COLOR green]LinkTV[/COLOR]" version="1.0.5" provider-name="LinkTV">
+<addon id="plugin.video.LinkTV" name="[COLOR green]LinkTV[/COLOR]" version="1.0.6" provider-name="LinkTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -17,8 +17,8 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>LinkTV based on LivetreamsPro by Shani "All rights to this author"</summary>
-    <description lang="es">[COLOR green][B]LinkTV[/B][/COLOR] - Es un addon de [COLOR blue][B]KODI[/B][/COLOR] Diseñado para Reproducir Canales de Television por IP, Peliculas, Series y Contenido Multimedia Existente en la Red, Gracias por su preferencia (Agradecimiento Especial a: [COLOR blue][B]Alejandra Pelayo[/B][/COLOR] por el Apoyo y Pasciencia a Este Proyecto que ha Requerido mucho Tiempo) LinkTV based on LivetreamsPro by Shani</description>
-    <description lang="en">[COLOR green][B]LinkTV[/B][/COLOR] - this is an add-on for [COLOR blue][B]KODI[/B][/COLOR] Designed to Play IP Television Channels, Movies, TV Shows Existing and Multimedia Content on the Web, Thanks for your preference (Special thanks to: [COLOR blue][B]Alejandra Pelayo[/B][/COLOR] for all Support by this project has taken a long time) LinkTV based on LivetreamsPro by Shani</description>
+    <description lang="es">[COLOR green][B]LinkTV[/B][/COLOR] - Es un addon de [COLOR blue][B]KODI[/B][/COLOR] Diseñado para Reproducir Canales de Television por IP, Peliculas, Series y Contenido Multimedia Existente en la Red, Gracias por su preferencia (Agradecimiento Especial a: [COLOR blue][B]Alejandra Pelayo[/B][/COLOR] por el Apoyo y Pasciencia a Este Proyecto que ha Requerido mucho Tiempo) [COLOR green][B]LinkTV[/B][/COLOR] based on LivetreamsPro by Shani</description>
+    <description lang="en">[COLOR green][B]LinkTV[/B][/COLOR] - this is an add-on for [COLOR blue][B]KODI[/B][/COLOR] Designed to Play IP Television Channels, Movies, TV Shows Existing and Multimedia Content on the Web, Thanks for your preference (Special thanks to: [COLOR blue][B]Alejandra Pelayo[/B][/COLOR] for all Support by this project has taken a long time) [COLOR green][B]LinkTV[/B][/COLOR] based on LivetreamsPro by Shani</description>
      <disclaimer lang="en">Using this add-on is free and at your own risk if the law prohibits the use </disclaimer>
 		<disclaimer lang="es">El uso de este Add-on es gratuito y bajo tu responsabilidad si las leyes de tu país restringuen su uso</disclaimer>
     <platform>all</platform>
