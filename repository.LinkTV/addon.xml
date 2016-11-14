@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.LinkTV" name="[COLOR white]Repositorio Oficial[/COLOR] [COLOR green]Link TV[/COLOR]" version="1.1.0" provider-name="Links Video Games">
+<addon id="repository.LinkTV" name="[COLOR white]Repositorio Oficial[/COLOR] [COLOR green]Link [COLOR white]TV[/COLOR]" version="1.1.2" provider-name="Links Video Games">
 	<extension point="xbmc.addon.repository" name="Repositorio Oficial LinkTV">
 		<info compressed="false">https://raw.github.com/Link5465/LinkRepo/master/addons.xml</info>
 		<checksum>https://raw.github.com/Link5465/LinkRepo/master/addons.xml.md5</checksum>
