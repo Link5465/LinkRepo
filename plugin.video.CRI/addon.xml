@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.CRI"
         name="[COLOR green]CRI[COLOR white] ADDON[/COLOR]"
-        version="1.1.2"
+        version="1.1.3"
         provider-name="Corporacion Refaccionaria Industrial S.A. de C.V.">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -27,7 +27,7 @@
     <summary>CRI based on LivetreamsPro by Shani "All rights to this author"</summary>
     <description lang="es">[COLOR green][B]CRI[/B][/COLOR] - Es un addon de [COLOR blue][B]KODI[/B][/COLOR] Diseñado para el entrenamiento y actualizacion de los empleados de Corporacion Refaccionaria Industrial, Publicando de Forma Privada, Cursos, Manuales y todo contenido multimedia para el aprendizaje. 
 Gracias por su preferencia (Agradecemos a [COLOR blue][B]José Manuel Gutierrez[/B][/COLOR] el apoyo a este proyecto) CRI based on LivetreamsPro by Shani</description>
-<description lang="en">[COLOR green][B]CRI[COLOR white]TV[/B][/COLOR] - this is an add-on for [COLOR blue][B]KODI[/B][/COLOR] Designed for trainning an actualization for all the employees of Corporacion Refaccionaria Industrial, Publishing on a private, all multimedia destinated to a coaching and professional trainning, Thanks for your preference (Special thanks to: [COLOR skyblue][B]José Manuel Gutierrez[/B][/COLOR] for all Support by this project has taken a long time) [COLOR green][B]CRI[COLOR white] Addon[/B][/COLOR] based on LivetreamsPro by Shani</description>
+<description lang="en">[COLOR green][B]CRI[/B][/COLOR] - this is an add-on for [COLOR blue][B]KODI[/B][/COLOR] Designed for trainning an actualization for all the employees of Corporacion Refaccionaria Industrial, Publishing on a private, all multimedia destinated to a coaching and professional trainning, Thanks for your preference (Special thanks to: [COLOR skyblue][B]José Manuel Gutierrez[/B][/COLOR] for all Support by this project has taken a long time) [COLOR green][B]CRI[COLOR white] Addon[/B][/COLOR] based on LivetreamsPro by Shani</description>
      <disclaimer lang="en">Using this add-on is free and at your own risk if the law prohibits the use </disclaimer>
     <disclaimer lang="es">El uso de este Add-on es gratuito y bajo tu responsabilidad si las leyes de tu país restringuen su uso</disclaimer>
     <platform>all</platform>
