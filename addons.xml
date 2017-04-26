@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
 
 <addon id="plugin.video.CRI"
         name="[COLOR green]Link[COLOR white]TV[/COLOR]"
@@ -16,7 +17,7 @@
     <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" />
-    <import addon="script.module.simplejson" /> 
+    <import addon="script.module.simplejson" />
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.pyamf" optional="true"/>
   </requires>
@@ -24,22 +25,23 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-  
+
   <extension point="xbmc.addon.metadata">
     <summary>CRI based on LivetreamsPro by Shani "All rights to this author"</summary>
-    
+
     <description lang="es">[COLOR white][B]CRI[/B][/COLOR] - Es un addon para [COLOR blue][B]KODI[/B][/COLOR] Diseñado para Reproducir Contenido Multimedia Existente en la Red, para usos de preparacion personal de la Empresa Corporacion Refaccionaria Industrial S.A. de C.V. (USO PRIVADO) (Agradecimiento Especial a: [COLOR skyblue][B]Ing. Manuel Gutierrez[/B][/COLOR] por el Apoyo a Este Proyecto que ha Requerido mucho Tiempo) [COLOR white][B]CRI[/B][/COLOR] based on LivetreamsPro by Shani</description>
 
     <description lang="en">[COLOR white][B]CRI[/B][/COLOR] - this is an add-on for [COLOR blue][B]KODI[/B][/COLOR] Designed to Play Multimedia Content on the Web, used to professional preparatios in Enterprises Corporacion Refaccionaria Industrial S.A. de C.V. (Special thanks to: [COLOR skyblue][B]Ing. Manuel Gutierrez[/B][/COLOR] for all Support by this project has taken a long time) [COLOR white][B]CRI[/B][/COLOR] based on LivetreamsPro by Shani</description>
 
     <disclaimer lang="en">Using this add-on is free and at your own risk if the law prohibits the use </disclaimer>
-    
+
     <disclaimer lang="es">El uso de este Add-on es gratuito y bajo tu responsabilidad si las leyes de tu país restringuen su uso</disclaimer>
-    
+
     <platform>all</platform>
   </extension>
 
 </addon>
+
 
 <addon id="plugin.video.LinkTV"
         name="[COLOR green]Link[COLOR white]TV[/COLOR]"
@@ -57,7 +59,7 @@
     <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" />
-    <import addon="script.module.simplejson" /> 
+    <import addon="script.module.simplejson" />
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.pyamf" optional="true"/>
   </requires>
@@ -65,24 +67,24 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-  
+
   <extension point="xbmc.addon.metadata">
     <summary>LinkTV based on LivetreamsPro by Shani "All rights to this author"</summary>
-    
+
     <description lang="es">[COLOR green][B]Link[COLOR white]TV[/B][/COLOR] - Es un addon de [COLOR blue][B]KODI[/B][/COLOR] Diseñado para Reproducir Peliculas, Series y Contenido Multimedia Existente en la Red, Gracias por su preferencia (Agradecimiento Especial a: [COLOR skyblue][B]Alejandra Pelayo[/B][/COLOR] por el Apoyo y Pasciencia a Este Proyecto que ha Requerido mucho Tiempo) [COLOR green][B]Link[COLOR white]TV[/B][/COLOR] based on LivetreamsPro by Shani</description>
 
     <description lang="en">[COLOR green][B]Link[COLOR white]TV[/B][/COLOR] - this is an add-on for [COLOR blue][B]KODI[/B][/COLOR] Designed to Play IP Television Channels, Movies, TV Shows Existing and Multimedia Content on the Web, Thanks for your preference (Special thanks to: [COLOR skyblue][B]Alejandra Pelayo[/B][/COLOR] for all Support by this project has taken a long time) [COLOR green][B]Link[COLOR white]TV[/B][/COLOR] based on LivetreamsPro by Shani</description>
 
     <disclaimer lang="en">Using this add-on is free and at your own risk if the law prohibits the use </disclaimer>
-    
+
     <disclaimer lang="es">El uso de este Add-on es gratuito y bajo tu responsabilidad si las leyes de tu país restringuen su uso</disclaimer>
-    
+
     <platform>all</platform>
   </extension>
 
 </addon>
 
-<addon id="repository.LinkTV" name="[COLOR white]Repositorio Oficial[/COLOR] [COLOR green]Link TV[/COLOR]" version="1.1.2" provider-name="Links Video Games">
+<addon id="repository.LinkTV" name="[COLOR white]Repositorio Oficial[/COLOR] [COLOR green]Link [COLOR white]TV[/COLOR]" version="1.1.2" provider-name="Links Video Games">
 	<extension point="xbmc.addon.repository" name="Repositorio Oficial LinkTV">
 		<info compressed="false">https://raw.github.com/Link5465/LinkRepo/master/addons.xml</info>
 		<checksum>https://raw.github.com/Link5465/LinkRepo/master/addons.xml.md5</checksum>

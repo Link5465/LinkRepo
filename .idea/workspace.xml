@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a68aadb2-4101-4ffe-95ca-51dfb467d175" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/LinkVideoGames.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin.video.CRI/plugin.video.CRI-1.1.4.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin.video.LinkTV/plugin.video.LinkTV-1.1.4.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/repository.LinkTV/repository.LinkTV-1.1.2.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons.xml" afterPath="$PROJECT_DIR$/addons.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.video.CRI/addon.xml" afterPath="$PROJECT_DIR$/plugin.video.CRI/addon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.video.LinkTV/addon.xml" afterPath="$PROJECT_DIR$/plugin.video.LinkTV/addon.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin.video.CRI/plugin.video.CRI.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin.video.LinkTV/plugin.video.LinkTV.zip" afterPath="" />
     </list>
     <ignored path="LinkRepo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,8 +56,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -77,11 +66,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LinkRepo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LinkRepo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in LinkRepo">
+  <component name="RunManager" selected="Python.repo_maker">
     <configuration default="false" name="Unittests in LinkRepo" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,6 +101,23 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="repo_maker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LinkRepo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/repo_maker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -226,12 +242,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in LinkRepo" />
+      <item index="1" class="java.lang.String" itemvalue="Python.repo_maker" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in LinkRepo" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.repo_maker" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in LinkRepo" />
       </list>
     </recent_temporary>
   </component>
