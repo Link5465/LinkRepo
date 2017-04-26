@@ -3,7 +3,7 @@
 
 <addon id="plugin.video.CRI"
         name="[COLOR green]Link[COLOR white]TV[/COLOR]"
-        version="1.1.5"
+        version="1.1.6"
         provider-name="CRI">
 
   <requires>
@@ -45,7 +45,7 @@
 
 <addon id="plugin.video.LinkTV"
         name="[COLOR green]Link[COLOR white]TV[/COLOR]"
-        version="1.1.5"
+        version="1.1.6"
         provider-name="LinkTV">
 
   <requires>
