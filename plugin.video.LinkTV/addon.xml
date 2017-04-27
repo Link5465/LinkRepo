@@ -2,7 +2,7 @@
 
 <addon id="plugin.video.LinkTV"
         name="[COLOR green]Link[COLOR white]TV[/COLOR]"
-        version="1.2.0"
+        version="1.2.1"
         provider-name="LinkTV">
 
   <requires>
