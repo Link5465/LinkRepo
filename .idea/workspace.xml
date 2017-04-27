@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a68aadb2-4101-4ffe-95ca-51dfb467d175" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/addons.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin.video.CRI/changelog-1.1.8.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin.video.CRI/plugin.video.CRI-1.1.8.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin.video.LinkTV/changelog-1.1.8.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin.video.LinkTV/plugin.video.LinkTV-1.1.8.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/repository.LinkTV/repository.LinkTV-1.1.2.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin.video.CRI/changelog-1.1.9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin.video.CRI/plugin.video.CRI-1.1.9.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin.video.LinkTV/changelog-1.1.9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin.video.LinkTV/plugin.video.LinkTV-1.1.9.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons.xml" afterPath="$PROJECT_DIR$/addons.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons.xml.md5" afterPath="$PROJECT_DIR$/addons.xml.md5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.video.CRI/addon.xml" afterPath="$PROJECT_DIR$/plugin.video.CRI/addon.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.video.LinkTV/addon.xml" afterPath="$PROJECT_DIR$/plugin.video.LinkTV/addon.xml" />
     </list>
@@ -63,7 +63,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -84,6 +83,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunManager" selected="Python.repo_maker">
