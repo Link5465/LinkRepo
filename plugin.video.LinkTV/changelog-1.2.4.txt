@@ -1,3 +1,6 @@
+Version 1.2.4
+Version Final para CRI/LinkTV Krypton 17.5
+
 Version 1.2.3
 Version Final para CRI/LinkTV
 

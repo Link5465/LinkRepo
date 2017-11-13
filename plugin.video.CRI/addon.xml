@@ -2,7 +2,7 @@
 
 <addon id="plugin.video.CRI"
         name="[COLOR green]C[COLOR white].[COLOR green]R[COLOR white].[COLOR green]I[COLOR white].[/COLOR]"
-        version="1.2.3"
+        version="1.2.4"
         provider-name="CRI">
 
   <requires>
